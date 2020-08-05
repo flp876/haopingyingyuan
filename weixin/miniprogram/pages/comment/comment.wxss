@@ -1,0 +1,164 @@
+/* miniprogram/pages/comment.wxss */
+.meta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50rpx 40rpx;
+}
+
+.poster {
+  width: 550rpx;
+  height: 800rpx;
+  margin: 20rpx;
+}
+
+.title {
+  font-style: 42rpx;
+  color: #444;
+}
+
+.info {
+  font-size: 24rpx;
+  color: #888;
+  margin-top: 20rpx;
+  width: 80%;
+}
+
+.summary {
+  width: 80%;
+  margin: 30rpx auto;
+}
+
+.label {
+  display: block;
+  font-size: 30rpx;
+  margin-bottom: 30rpx;
+}
+
+.content {
+  color: #666;
+  font-size: 22rpx;
+  padding: 2em;
+}
+
+.background {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1000;
+  opacity: .1;
+}
+
+
+
+
+
+
+
+
+
+
+/* 1.背景图片 */
+.detail-container{
+  height: 400rpx;
+  opacity: .9;            /*透明度*/
+  filter: blur(40rpx);    /*模糊滤镜*/
+}
+/* 2.遮罩层 */
+.detail-mask{
+  width: 100%;
+  height: 400rpx;
+  background: #333;
+  position: absolute;
+  left: 0;top: 0;
+  z-index: -1;
+}
+/* 3.电影详情信息 */
+.detail-info{
+  /* 显示到模糊图片上方 */
+  position: absolute;/*绝对定位*/
+  top: 0;left: 0;
+  width: 100%;
+  height: 400rpx;
+  display: flex;/*弹性布局*/
+  padding: 20rpx;/*四个边加内边距*/
+}
+/* 4.左边图片大小 */
+.detail-img{
+  width: 500rpx;
+  height: 90%;
+  margin-right: 24rpx;/*右侧间距文字*/
+}
+/* 5.右侧 电影内容 */
+.detail{
+  line-height: 60rpx; /*行高*/
+}
+.detail view{
+  color:#fff;
+  font-size: 24rpx;
+}
+/* 评分字体颜色大小 */
+.detail .detail-score{
+  color: #fc0;
+  font-size:36rpx;
+}
+/* 打分 */
+.score{
+  padding: 10rpx 100rpx;
+}
+/* 按钮 */
+.btn-margin{
+  display: flex;
+  justify-content:center;
+  /* align-items: center; */
+  margin-top:20rpx;
+  margin-bottom: 50rpx;
+}
+/* 电影描述 */
+.desc{
+  color: #555;
+  font-size: 28rpx;
+  padding: 20rpx;
+}
+.comment{
+  padding: 10rpx;
+  margin:20rpx;
+  border-radius: 10rpx;
+}
+
+.comText{
+  margin-bottom: 10rpx;
+}
+.comPop+.comPop{
+  border-top:solid 1px #e8e3d3;
+  padding-top:10rpx;
+}
+.comPop{
+  margin-bottom: 30rpx;
+}
+.comImg{
+  width: 100rpx;
+  height:100rpx;
+  border-radius: 50%;
+  vertical-align:middle;
+  display: inline-block;
+  overflow: hidden;
+}
+.comName{
+  margin: 0 10rpx;
+}
+.comContent{
+  border-top: solid 1px #e8e3d3;
+  margin-top:10rpx;
+  padding: 010rpx;
+  font-size:28rpx;
+  color:#555;
+}
+.comimage{
+  width: 200rpx;
+  height: 200rpx;
+}

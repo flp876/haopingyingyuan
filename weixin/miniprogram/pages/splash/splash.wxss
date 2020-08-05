@@ -1,0 +1,23 @@
+/* pages/splash/splash.wxss */
+page{
+  height: 100%;
+}
+.container{
+  width:100%;
+  height:100%;
+  position:relative;
+}
+.img{
+  width: 100%;
+  height: 100%;
+}
+.btn{
+  width:100%;
+  height:100rpx;
+  position:fixed;
+  font-size:40rpx;
+  justify-content: center;
+  align-items: center;
+  top: 80%;
+  background-color: rgba(237, 237, 237, .6);
+}

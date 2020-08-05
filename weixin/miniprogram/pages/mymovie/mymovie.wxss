@@ -1,0 +1,13 @@
+/* pages/mymovie/mymovie.wxss */
+/* 头部图片 */
+.movielist{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20rpx;
+}
+/* 按钮 */
+.btn{
+  display: flex;
+  margin-top:100rpx; 
+}

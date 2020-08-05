@@ -1,0 +1,5 @@
+<!--pages/splash/splash.wxml-->
+<view class="container">
+  <image class="img" src="{{imgs.images.large}}"></image>
+  <button class="btn" bindtap="start" mode="aspectFill">立即体验</button>
+</view>

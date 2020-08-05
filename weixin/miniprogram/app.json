@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/splash/splash",
+    "pages/home/home",
+
+    "pages/comment/comment",
+    "pages/profile/profile",
+    "pages/mymovie/mymovie",
+    "pages/map/map"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "阿六影评",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#cccccc",
+    "selectedColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "images/1.png",
+        "selectedIconPath": "images/1_active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "个人中心",
+        "iconPath": "images/2.png",
+        "selectedIconPath": "images/2_active.png"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "text": "我的位置",
+        "iconPath": "images/3.png",
+        "selectedIconPath": "images/3_active.png"
+      },
+      {
+        "pagePath": "pages/mymovie/mymovie",
+        "text": "我的",
+        "iconPath": "images/m_active.png",
+        "selectedIconPath": "images/m.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "permission":{
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "debug": true,
+  "navigateToMiniProgramAppIdList": [
+    "wx906cd4763bb2ad36"
+  ]
+}
